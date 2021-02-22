@@ -1,0 +1,41 @@
+{
+  "name": "VDM-slider",
+  "displayName": "VDM-slider",
+  "version": "1.0.0",
+  "description": "VDM-slider",
+  "author": {
+    "name": "Francesca Marini, Alfredo Ranchetti",
+    "email": "francesca.marini@vidiemme.it"
+  },
+  "license": "Unlicense",
+  "main": "./src/index.html",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp build",
+    "docs:generate": "documentation build ./src -f html -o ./docs"
+  },
+  "devDependencies": {
+    "documentation": "^8.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-import-resolver-configurable": "^0.1.3",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "stylelint": "^9.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  }
+}
